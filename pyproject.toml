@@ -78,7 +78,8 @@ docs = ["sphinx", "sphinx_rtd_theme", "sphinx-autorun"]
 
 requires = [
     "setuptools",
-    "oldest-supported-numpy",
+    "numpy"
+    # "oldest-supported-numpy",
     # "numpy == 1.17.4",
 ]
 build-backend = "setuptools.build_meta"
